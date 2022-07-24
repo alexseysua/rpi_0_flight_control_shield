@@ -44,7 +44,7 @@ https://github.com/pms67/HadesFCS
 2. CPUs: https://datasheet.lcsc.com/lcsc/1811061717_STMicroelectronics-STM32F030C8T6_C23922.pdf <- Sensors
 https://datasheet.lcsc.com/lcsc/1811151642_STMicroelectronics-STM32F103C8T6_C8734.pdf <- Command CPU
 3. Pressure https://datasheet.lcsc.com/lcsc/1811071024_Infineon-Technologies-DPS310_C130156.pdf
-4. IMU: 
+4. IMU + Gyro + Compass: https://datasheet.lcsc.com/lcsc/1811071031_Bosch-Sensortec-BMX055_C94022.pdf
 
 # Board concept 
 
