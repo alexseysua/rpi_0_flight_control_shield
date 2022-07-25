@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -41,4 +41,6 @@ F 9 "LGA-8 Infineon" H 7930 2520 50  0001 L BNN "PACKAGE"
 	1    7930 2520
 	1    0    0    -1  
 $EndComp
+Text Notes 2710 1510 0    50   ~ 0
+wiring diagram: \n\ndatasheet page 158\n
 $EndSCHEMATC

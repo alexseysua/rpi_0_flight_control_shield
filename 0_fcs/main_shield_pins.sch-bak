@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -158,4 +158,12 @@ F 3 "" H 7060 2340 50  0001 C CNN
 	1    7060 2340
 	0    1    1    0   
 $EndComp
+Text GLabel 5260 3140 0    50   Input ~ 0
+SHIELD_SPI_MOSI
+Text GLabel 5260 3240 0    50   Input ~ 0
+SHIELD_SPI_MISO
+Text GLabel 5260 3340 0    50   Input ~ 0
+SHIELD_SPI_SCLK
+Text GLabel 7060 3340 2    50   Input ~ 0
+SHIELD_SPI_NSS
 $EndSCHEMATC

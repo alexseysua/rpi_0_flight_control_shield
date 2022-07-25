@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -1111,28 +1111,6 @@ Wire Wire Line
 	8150 3700 8150 3750
 Wire Wire Line
 	8150 3950 8150 4000
-$Comp
-L bldc_driver-cache:+3.3V #PWR?
-U 1 1 6129428C
-P 2700 7000
-F 0 "#PWR?" H 2700 6850 50  0001 C CNN
-F 1 "+3.3V" H 2715 7173 50  0000 C CNN
-F 2 "" H 2700 7000 50  0001 C CNN
-F 3 "" H 2700 7000 50  0001 C CNN
-	1    2700 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L bldc_driver-cache:+3.3V #PWR?
-U 1 1 61294631
-P 3150 7000
-F 0 "#PWR?" H 3150 6850 50  0001 C CNN
-F 1 "+3.3V" H 3165 7173 50  0000 C CNN
-F 2 "" H 3150 7000 50  0001 C CNN
-F 3 "" H 3150 7000 50  0001 C CNN
-	1    3150 7000
-	1    0    0    -1  
-$EndComp
 $Comp
 L bldc_driver-cache:+3.3V #PWR?
 U 1 1 61298997

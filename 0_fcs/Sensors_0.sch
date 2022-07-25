@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -17,8 +17,8 @@ $Comp
 L Sensor_Magnetic:BMX055 U?
 U 1 1 62DD358D
 P 2750 2410
-F 0 "U?" H 2750 3291 50  0000 C CNN
-F 1 "BMX055" H 2750 3200 50  0000 C CNN
+F 0 "U?" H 3140 3230 50  0000 C CNN
+F 1 "BMX055" H 3150 3070 50  0000 C CNN
 F 2 "BMX055" H 2750 2410 50  0001 L BNN
 F 3 "" H 2750 2410 50  0001 L BNN
 	1    2750 2410
@@ -41,6 +41,146 @@ F 9 "LGA-8 Infineon" H 7930 2520 50  0001 L BNN "PACKAGE"
 	1    7930 2520
 	1    0    0    -1  
 $EndComp
-Text Notes 2710 1510 0    50   ~ 0
+Text Notes 3040 870  0    50   ~ 0
 wiring diagram: \n\ndatasheet page 158\n
+$Comp
+L Device:C_Small C?
+U 1 1 62E111F1
+P 1330 1140
+F 0 "C?" H 1422 1186 50  0000 L CNN
+F 1 "100nF" H 1422 1095 50  0000 L CNN
+F 2 "" H 1330 1140 50  0001 C CNN
+F 3 "~" H 1330 1140 50  0001 C CNN
+	1    1330 1140
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62E12493
+P 780 1150
+F 0 "C?" H 872 1196 50  0000 L CNN
+F 1 "100nF" H 872 1105 50  0000 L CNN
+F 2 "" H 780 1150 50  0001 C CNN
+F 3 "~" H 780 1150 50  0001 C CNN
+	1    780  1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62E12733
+P 780 920
+F 0 "#PWR?" H 780 770 50  0001 C CNN
+F 1 "+3V3" H 795 1093 50  0000 C CNN
+F 2 "" H 780 920 50  0001 C CNN
+F 3 "" H 780 920 50  0001 C CNN
+	1    780  920 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	780  920  780  1000
+Wire Wire Line
+	1330 1040 1330 1000
+Wire Wire Line
+	1330 1000 780  1000
+Connection ~ 780  1000
+Wire Wire Line
+	780  1000 780  1050
+Wire Wire Line
+	780  1250 780  1390
+Wire Wire Line
+	780  1390 1330 1390
+Wire Wire Line
+	1330 1390 1330 1240
+$Comp
+L power:GND #PWR?
+U 1 1 62E13F89
+P 780 1430
+F 0 "#PWR?" H 780 1180 50  0001 C CNN
+F 1 "GND" H 785 1257 50  0000 C CNN
+F 2 "" H 780 1430 50  0001 C CNN
+F 3 "" H 780 1430 50  0001 C CNN
+	1    780  1430
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	780  1430 780  1390
+Connection ~ 780  1390
+Text Label 1330 1000 0    50   ~ 0
+DEBOUNCING
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62E14234
+P 2650 1490
+F 0 "#PWR?" H 2650 1340 50  0001 C CNN
+F 1 "+3V3" H 2665 1663 50  0000 C CNN
+F 2 "" H 2650 1490 50  0001 C CNN
+F 3 "" H 2650 1490 50  0001 C CNN
+	1    2650 1490
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1710 2650 1570
+Wire Wire Line
+	2850 1710 2850 1570
+Wire Wire Line
+	2850 1570 2650 1570
+Connection ~ 2650 1570
+Wire Wire Line
+	2650 1570 2650 1490
+Text Label 2850 1570 0    50   ~ 0
+DEBOUNCING
+Text GLabel 2050 1910 0    50   Input ~ 0
+ACCEL_NSS
+Text GLabel 2050 2110 0    50   Input ~ 0
+MAGNET_NSS
+Text GLabel 2050 2010 0    50   Input ~ 0
+GYRO_CS
+Text GLabel 2050 2410 0    50   Input ~ 0
+BOARD_SPI_MOSI
+Text GLabel 1900 2810 0    50   Input ~ 0
+BOARD_SPI_MISO
+Text GLabel 2050 2510 0    50   Input ~ 0
+BOARD_SPI_SCLK
+$Comp
+L power:GND #PWR?
+U 1 1 62E1807D
+P 2650 3110
+F 0 "#PWR?" H 2650 2860 50  0001 C CNN
+F 1 "GND" H 2655 2937 50  0000 C CNN
+F 2 "" H 2650 3110 50  0001 C CNN
+F 3 "" H 2650 3110 50  0001 C CNN
+	1    2650 3110
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62E18D14
+P 2850 3110
+F 0 "#PWR?" H 2850 2860 50  0001 C CNN
+F 1 "GND" H 2855 2937 50  0000 C CNN
+F 2 "" H 2850 3110 50  0001 C CNN
+F 3 "" H 2850 3110 50  0001 C CNN
+	1    2850 3110
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2810 1960 2810
+Wire Wire Line
+	2050 2910 1960 2910
+Wire Wire Line
+	1960 2910 1960 2810
+Connection ~ 1960 2810
+Wire Wire Line
+	1960 2810 2050 2810
+$Comp
+L power:GND #PWR?
+U 1 1 62E1D6FD
+P 3450 1910
+F 0 "#PWR?" H 3450 1660 50  0001 C CNN
+F 1 "GND" V 3455 1782 50  0000 R CNN
+F 2 "" H 3450 1910 50  0001 C CNN
+F 3 "" H 3450 1910 50  0001 C CNN
+	1    3450 1910
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

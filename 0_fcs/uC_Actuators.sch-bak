@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -460,4 +460,282 @@ Wire Notes Line
 	1720 5280 1520 5280
 Wire Notes Line
 	1520 5280 1520 5030
+$Comp
+L Device:C_Small C?
+U 1 1 62DF6B92
+P 930 6970
+AR Path="/62DED46D/62DF6B92" Ref="C?"  Part="1" 
+AR Path="/62CAEE1A/62DF6B92" Ref="C?"  Part="1" 
+F 0 "C?" H 1022 7016 50  0000 L CNN
+F 1 "100n" H 1022 6925 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 930 6970 50  0001 C CNN
+F 3 "~" H 930 6970 50  0001 C CNN
+	1    930  6970
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62DF6B98
+P 1330 6970
+AR Path="/62DED46D/62DF6B98" Ref="C?"  Part="1" 
+AR Path="/62CAEE1A/62DF6B98" Ref="C?"  Part="1" 
+F 0 "C?" H 1422 7016 50  0000 L CNN
+F 1 "100n" H 1422 6925 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1330 6970 50  0001 C CNN
+F 3 "~" H 1330 6970 50  0001 C CNN
+	1    1330 6970
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62DF6B9E
+P 1730 6970
+AR Path="/62DED46D/62DF6B9E" Ref="C?"  Part="1" 
+AR Path="/62CAEE1A/62DF6B9E" Ref="C?"  Part="1" 
+F 0 "C?" H 1822 7016 50  0000 L CNN
+F 1 "100n" H 1822 6925 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1730 6970 50  0001 C CNN
+F 3 "~" H 1730 6970 50  0001 C CNN
+	1    1730 6970
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	930  7070 930  7170
+Wire Wire Line
+	930  7170 1330 7170
+Wire Wire Line
+	1330 7170 1330 7070
+Wire Wire Line
+	1330 7170 1730 7170
+Wire Wire Line
+	1730 7170 1730 7070
+Connection ~ 1330 7170
+Wire Wire Line
+	930  6870 930  6770
+Wire Wire Line
+	930  6770 1330 6770
+Wire Wire Line
+	1330 6770 1330 6870
+Wire Wire Line
+	1330 6770 1730 6770
+Wire Wire Line
+	1730 6770 1730 6870
+Connection ~ 1330 6770
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62DF6BB0
+P 930 6570
+AR Path="/62DED46D/62DF6BB0" Ref="#PWR?"  Part="1" 
+AR Path="/62CAEE1A/62DF6BB0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 930 6420 50  0001 C CNN
+F 1 "+3.3V" H 945 6743 50  0000 C CNN
+F 2 "" H 930 6570 50  0001 C CNN
+F 3 "" H 930 6570 50  0001 C CNN
+	1    930  6570
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	930  6570 930  6770
+Connection ~ 930  6770
+$Comp
+L power:GND #PWR?
+U 1 1 62DF6BB8
+P 930 7320
+AR Path="/62DED46D/62DF6BB8" Ref="#PWR?"  Part="1" 
+AR Path="/62CAEE1A/62DF6BB8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 930 7070 50  0001 C CNN
+F 1 "GND" H 935 7147 50  0000 C CNN
+F 2 "" H 930 7320 50  0001 C CNN
+F 3 "" H 930 7320 50  0001 C CNN
+	1    930  7320
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	930  7320 930  7170
+Connection ~ 930  7170
+$Comp
+L Device:C_Small C?
+U 1 1 62DF6BC0
+P 2780 6970
+AR Path="/62DED46D/62DF6BC0" Ref="C?"  Part="1" 
+AR Path="/62CAEE1A/62DF6BC0" Ref="C?"  Part="1" 
+F 0 "C?" H 2872 7016 50  0000 L CNN
+F 1 "4.7u" H 2872 6925 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2780 6970 50  0001 C CNN
+F 3 "~" H 2780 6970 50  0001 C CNN
+	1    2780 6970
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2780 7170 2780 7070
+Wire Wire Line
+	2780 6770 2780 6870
+$Comp
+L Device:C_Small C?
+U 1 1 62DF6BC8
+P 2130 6970
+AR Path="/62DED46D/62DF6BC8" Ref="C?"  Part="1" 
+AR Path="/62CAEE1A/62DF6BC8" Ref="C?"  Part="1" 
+F 0 "C?" H 2222 7016 50  0000 L CNN
+F 1 "100n" H 2222 6925 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2130 6970 50  0001 C CNN
+F 3 "~" H 2130 6970 50  0001 C CNN
+	1    2130 6970
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2130 6770 2130 6870
+Wire Wire Line
+	2130 6770 2780 6770
+Wire Wire Line
+	2130 6770 1730 6770
+Connection ~ 2130 6770
+Connection ~ 1730 6770
+Wire Wire Line
+	1730 7170 2130 7170
+Wire Wire Line
+	2130 7070 2130 7170
+Connection ~ 1730 7170
+Wire Wire Line
+	2130 7170 2780 7170
+Connection ~ 2130 7170
+Text Notes 1030 6670 0    50   ~ 0
+MCU power supply debouncing cappacitors\n
+$Comp
+L Interface_CAN_LIN:SN65HVD230 U?
+U 1 1 62E06A24
+P 9350 1410
+AR Path="/62DED46D/62E06A24" Ref="U?"  Part="1" 
+AR Path="/62CAEE1A/62E06A24" Ref="U?"  Part="1" 
+F 0 "U?" H 9100 1660 50  0000 C CNN
+F 1 "SN65HVD230" H 9650 1660 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9350 910 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf" H 9250 1810 50  0001 C CNN
+	1    9350 1410
+	1    0    0    -1  
+$EndComp
+Text GLabel 8950 1410 0    50   Input ~ 0
+CAN_RX
+Text GLabel 8950 1310 0    50   Input ~ 0
+CAN_TX
+Text GLabel 9750 1510 2    50   Input ~ 0
+CAN_L
+Text GLabel 9750 1410 2    50   Input ~ 0
+CAN_H
+$Comp
+L power:GND #PWR?
+U 1 1 62E06A34
+P 9350 1810
+AR Path="/62DED46D/62E06A34" Ref="#PWR?"  Part="1" 
+AR Path="/62CAEE1A/62E06A34" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9350 1560 50  0001 C CNN
+F 1 "GND" H 9355 1637 50  0000 C CNN
+F 2 "" H 9350 1810 50  0001 C CNN
+F 3 "" H 9350 1810 50  0001 C CNN
+	1    9350 1810
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62E06A3A
+P 8950 1610
+AR Path="/62DED46D/62E06A3A" Ref="#PWR?"  Part="1" 
+AR Path="/62CAEE1A/62E06A3A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8950 1360 50  0001 C CNN
+F 1 "GND" V 8955 1482 50  0000 R CNN
+F 2 "" H 8950 1610 50  0001 C CNN
+F 3 "" H 8950 1610 50  0001 C CNN
+	1    8950 1610
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 62E06A40
+P 8300 1360
+AR Path="/62DED46D/62E06A40" Ref="R?"  Part="1" 
+AR Path="/62CAEE1A/62E06A40" Ref="R?"  Part="1" 
+F 0 "R?" H 8359 1406 50  0000 L CNN
+F 1 "1k" H 8359 1315 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8300 1360 50  0001 C CNN
+F 3 "~" H 8300 1360 50  0001 C CNN
+	1    8300 1360
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 62E06A46
+P 8300 1660
+AR Path="/62DED46D/62E06A46" Ref="R?"  Part="1" 
+AR Path="/62CAEE1A/62E06A46" Ref="R?"  Part="1" 
+F 0 "R?" H 8359 1706 50  0000 L CNN
+F 1 "1k" H 8359 1615 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8300 1660 50  0001 C CNN
+F 3 "~" H 8300 1660 50  0001 C CNN
+	1    8300 1660
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 1160 8300 1260
+Wire Wire Line
+	8300 1460 8300 1510
+Wire Wire Line
+	8300 1510 8950 1510
+Connection ~ 8300 1510
+Wire Wire Line
+	8300 1510 8300 1560
+$Comp
+L power:GND #PWR?
+U 1 1 62E06A57
+P 8300 1760
+AR Path="/62DED46D/62E06A57" Ref="#PWR?"  Part="1" 
+AR Path="/62CAEE1A/62E06A57" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8300 1510 50  0001 C CNN
+F 1 "GND" H 8305 1587 50  0000 C CNN
+F 2 "" H 8300 1760 50  0001 C CNN
+F 3 "" H 8300 1760 50  0001 C CNN
+	1    8300 1760
+	1    0    0    -1  
+$EndComp
+Text Notes 8550 910  0    50   ~ 0
+Rs -> GND = high speed mode\nVref -> 3.3V/2 \n
+Text GLabel 4450 3380 0    50   Input ~ 0
+CAN_TX
+Text GLabel 4450 3280 0    50   Input ~ 0
+CAN_RX
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62E1229A
+P 8300 1160
+F 0 "#PWR?" H 8300 1010 50  0001 C CNN
+F 1 "+3V3" H 8315 1333 50  0000 C CNN
+F 2 "" H 8300 1160 50  0001 C CNN
+F 3 "" H 8300 1160 50  0001 C CNN
+	1    8300 1160
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62E12FA8
+P 9350 1110
+F 0 "#PWR?" H 9350 960 50  0001 C CNN
+F 1 "+3V3" H 9365 1283 50  0000 C CNN
+F 2 "" H 9350 1110 50  0001 C CNN
+F 3 "" H 9350 1110 50  0001 C CNN
+	1    9350 1110
+	1    0    0    -1  
+$EndComp
+Text GLabel 5750 3180 2    50   Input ~ 0
+SHIELD_SPI_MOSI
+Text GLabel 5750 3080 2    50   Input ~ 0
+SHIELD_SPI_MISO
+Text GLabel 5750 2980 2    50   Input ~ 0
+SHIELD_SPI_SCLK
+Text GLabel 5750 2880 2    50   Input ~ 0
+SHIELD_SPI_NSS
+Text GLabel 4450 3980 0    50   Input ~ 0
+BOARD_SPI_MOSI
+Text GLabel 4450 3880 0    50   Input ~ 0
+BOARD_SPI_MISO
+Text GLabel 4450 3780 0    50   Input ~ 0
+BOARD_SPI_SCLK
 $EndSCHEMATC
