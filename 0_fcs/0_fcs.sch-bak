@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -30,11 +30,5 @@ S 4170 800  1460 1480
 U 62CAEE1A
 F0 "uC_Actuators" 50
 F1 "uC_Actuators.sch" 50
-$EndSheet
-$Sheet
-S 6210 1470 1160 280 
-U 62DED46D
-F0 "reference" 50
-F1 "cpu.sch" 50
 $EndSheet
 $EndSCHEMATC
